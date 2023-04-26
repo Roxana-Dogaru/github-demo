@@ -1,0 +1,32 @@
+.animatie1{
+    height: 250px;
+    animation-name: animatie-stanga;
+    animation-duration: 200s;
+    animation-iteration-count:repeat;
+    animation-direction:normal;
+    animation-timing-function: linear;
+}
+
+@keyframes animatie-stanga {
+    0%{left:-0px;top:0px}
+    100%{ left:-1024px;top:0px}
+   
+
+    
+}
+.animatie2{
+    height: 250px;
+    animation-name: animatie-dreapta;
+    animation-duration: 150s;
+    animation-iteration-count: repeat;
+    animation-direction:reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes animatie-dreapta {
+    0%{left:1024px;top:0px}
+    100%{ left:-0px;top:0px}
+   
+
+    
+}
